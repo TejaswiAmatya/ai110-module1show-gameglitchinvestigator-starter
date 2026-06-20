@@ -6,15 +6,16 @@ Answer each question in 3 to 5 sentences. Be specific and honest about what actu
 
 - What did the game look like the first time you ran it?
   At first it just instructed me to guess a number, the input box was not there. only when I reloaded, the input box for guessing the number was there
-- List at least two concrete bugs you noticed at the start  
-  (for example: "the hints were backwards").
 
----
+Document at least 3 bugs you found. Add rows as needed.
 
-- The hint was opposite
-- New game doesn't work
-- The score wasn't being calculated correctly
-- Allowed values over 100 to be inputed eventhough it clearly said 1 to 100.
+| Input                                    | Expected Behavior | Actual Behavior | Console Output / Error |
+| ---------------------------------------- | ----------------- | --------------- | ---------------------- |
+| Guessed 50 when the secret number was 90 | Go Higher         | Go Lower        | None                   |
+
+New Game Button Clicked | Game Restart | The secret number, Attemps or Score didn't Change | None
+
+Guessed 101 | Guess Allowed | Error should be seen | None
 
 ## 2. How did you use AI as a teammate?
 
