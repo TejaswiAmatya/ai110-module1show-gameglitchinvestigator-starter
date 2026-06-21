@@ -36,7 +36,7 @@ It wrote the code, ran away, and now the game is unplayable.
 - [ ] Explain what fixes you applied.
       I fixed the game by addressing both state and logic issues. First, I stored game values in st.session_state so they persist across Streamlit reruns, which keeps the secret number stable during a round. Second, I corrected the guess logic in logic_utils.py so hints now match the comparison (Too High -> Go LOWER, Too Low -> Go HIGHER). Third, I updated the New Game flow to fully reset state each click (status, attempts, history, score) and generate a fresh secret number. I also added/used tests in tests/test_game_logic.py to verify win/high/low behavior and confirm that the New Game button correctly restarts the game every time.
 
-Describe your fixed game in numbered steps so a reader can follow along without watching a video:
+## 📸 Demo Walkthrough
 
 1. <!-- Describe this step -->
 2. <!-- Describe this step -->
@@ -52,4 +52,4 @@ Describe your fixed game in numbered steps so a reader can follow along without 
 
 ## 🚀 Stretch Features
 
-- [ ] [If you choose to complete Challenge 4, insert a screenshot of your Enhanced Game UI here]
+- [ ] [If you choose to complete Challenge 4, describe the Enhanced UI changes here — a screenshot is optional]
