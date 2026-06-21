@@ -38,11 +38,11 @@ It wrote the code, ran away, and now the game is unplayable.
 
 ## 📸 Demo Walkthrough
 
-1. <!-- Describe this step -->
-2. <!-- Describe this step -->
-3. <!-- Describe this step -->
-4. <!-- Describe this step -->
-5. <!-- Add more steps as needed -->
+1. The Develop Debug Info contains information about about Secret, Attempts, Score, Difficulty and History
+2. In the Enter Number, you input your guessed numbers
+3. Based on the secret number, you get hints like "go higher" or "go lower"
+4. Guess your next number based on the hint
+5. When you win, it is tracked in the attempts, if you click "New Game", everything resets
 
 **Screenshot** _(optional)_:
 ![alt text](image.png)
